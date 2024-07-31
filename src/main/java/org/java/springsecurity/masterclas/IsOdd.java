@@ -36,6 +36,7 @@ public class IsOdd {
 //        System.out.println(sumOdd(10, 5));  // -1 (invalid input)
         sumDigit(-1);
         sumMethod2(-1234);
+        getNumberRange(6);
     }
 
     public static int sumDigit(int dig) {
@@ -69,5 +70,19 @@ public class IsOdd {
         return sum;
     }
 
-    public static void getNumberRange()
+    public static void getNumberRange(int number) {
+        while(number < 15) {
+            number++;
+            if (number <= 5) {
+                System.out.println("number less");
+                continue;
+            }
+            if (number >= 10) {
+                break;
+            }
+        }
+
+
+    }
+
 }
