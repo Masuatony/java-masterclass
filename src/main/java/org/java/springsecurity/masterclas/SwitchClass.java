@@ -87,4 +87,8 @@ public class SwitchClass {
 
         return true;
     }
+
+    //testing odd number
+
+
 }
