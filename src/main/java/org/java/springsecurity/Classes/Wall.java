@@ -5,13 +5,15 @@ public class Wall {
     private double width;
 
     public Wall(double height, double width) {
-        if (height < 0 || width < 0) {
-            this.height = 0;
-            this.width = 0;
-        } else {
-            this.height = height;
-            this.width = width;
-        }
+//        if (height < 0 || width < 0) {
+//            this.height = 0;
+//            this.width = 0;
+//        } else {
+//            this.height = height;
+//            this.width = width;
+//        }
+        setHeight(height);
+        setWidth(width);
     }
     public Wall() {
     }
