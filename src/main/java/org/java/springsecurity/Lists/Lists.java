@@ -1,7 +1,6 @@
-package org.java.springsecurity;
+package org.java.springsecurity.Lists;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Lists {
@@ -36,7 +35,8 @@ public class Lists {
         );
         System.out.println(nextList);
 //        groceries.addAll(Arrays.asList(items));
-
+        groceries.addAll(nextList);
+        System.out.println(groceries);
 
     }
 }
