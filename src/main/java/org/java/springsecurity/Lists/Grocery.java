@@ -18,5 +18,7 @@ public class Grocery {
         groceryItems[1] = new GroceryItem("apple", "PRODUCE", 6);
         groceryItems[2] = new GroceryItem("Bread");
         System.out.println(Arrays.toString(groceryItems));
+       long count = groceryItems.length;
+        System.out.printf("count = %d\n", count);
     }
 }

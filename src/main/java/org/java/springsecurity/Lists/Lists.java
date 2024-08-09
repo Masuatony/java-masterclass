@@ -1,6 +1,7 @@
 package org.java.springsecurity.Lists;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Lists {
@@ -37,6 +38,15 @@ public class Lists {
 //        groceries.addAll(Arrays.asList(items));
         groceries.addAll(nextList);
         System.out.println(groceries);
+
+        long count = groceries.stream().count();
+        System.out.println("count: " + count);
+        System.out.println(groceries);
+        groceries.removeIf(item -> item.equals("apples"));
+        System.out.println(groceries);
+        String[] mangoes = {"mangoes", "guavas", "eggs"};
+//        groceries.addAll(Arrays.toString(mangoes));
+//        System.out.println(groceries.remove());
 
     }
 }
