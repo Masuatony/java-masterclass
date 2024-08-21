@@ -22,11 +22,13 @@ public class Customer {
         this.transactions = transactions;
     }
 
-    public Customer(String name) {
+    public Customer(String name, double initialTransaction) {
         this.name = name;
         this.transactions = new ArrayList<>();
     }
     public void addTransaction(double transaction) {
         transactions.add(transaction);
     }
+
+
 }
