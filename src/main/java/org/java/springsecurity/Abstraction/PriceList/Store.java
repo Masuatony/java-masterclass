@@ -42,6 +42,7 @@ public class Store {
         for (var item: order) {
            item.productForSale().printPricedItem(item.qty());
            totalPrice += item.productForSale().getSalesPrice(  item.qty());
+
         }
         System.out.println("Total Price: " + totalPrice);
     }
