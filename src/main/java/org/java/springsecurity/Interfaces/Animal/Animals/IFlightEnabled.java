@@ -1,4 +1,4 @@
-package org.java.springsecurity.Interfaces;
+package org.java.springsecurity.Interfaces.Animal.Animals;
 
 public interface IFlightEnabled {
     double MILES_TO_KM = 1.60934;

@@ -1,6 +1,4 @@
-package org.java.springsecurity.Interfaces;
-
-import org.java.springsecurity.Inheritance.Animal;
+package org.java.springsecurity.Interfaces.Animal.Animals;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

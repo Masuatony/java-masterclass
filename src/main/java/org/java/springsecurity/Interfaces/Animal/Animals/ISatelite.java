@@ -1,4 +1,4 @@
-package org.java.springsecurity.Interfaces;
+package org.java.springsecurity.Interfaces.Animal.Animals;
 
 public class ISatelite implements OrbitEarth {
 
